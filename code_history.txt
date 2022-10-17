@@ -854,3 +854,610 @@
   494  history
   495  sudo nano /etc/nginx/sites-available/default
   496  history
+
+
+
+  ### 17 Oct 
+
+  500  git branch -b
+  501  git branch --all
+  502  git pull
+  503  git pull https://github.com/TAL-deves/MSBD-frontend.git main
+  504  git pull origin main --rebase
+  505  git rebase main
+  506  git pull
+  507  git branch --set-upstream-to=origin/main main
+  508  git fetch
+  509  npm start
+  510  git pull 
+  511  git add .
+  512  git commit -m "15 sep msr"
+  513  git pull
+  514  git config pull.rebase false
+  515  git pull
+  516  git add .
+  517  git commit -m "15 sep msr"
+  518  git pull
+  519  git restore .
+  520  git commit -m "15 sep msr"
+  521  git add ../MSBD_FE-main/
+  522  git pull
+  523  npm i
+  524  npm i
+  525  git push
+  526  git add .
+  527  git commit -m "15 sep msr"
+  528  git push
+  529  npm start
+  530  node -version
+  531  node --version
+  532  npm start
+  533  npm i crypto
+  534  npm start
+  535  npm start
+  536  npm start
+  537  npm start
+  538  npm start
+  539  npm start
+  540  npm start
+  541  npm start
+  542  npm start
+  543  npm uninstall crypto
+  544  npm i crypto
+  545  npm i crypto-js
+  546  npm start
+  547  npm test
+  548  npm test
+  549  npm test
+  550  npm test
+  551  npm i crypto
+  552  npm start
+  553  git clone https://github.com/TAL-deves/msbdfev1.0.1.git
+  554  cd msbdfev1.0.1
+  555  npm i
+  556  npm start
+  557  npm start
+  558  npm install crypto-js\n
+  559  npm test
+  560  npm start
+  561  npm install crypto-js\n
+  562  npm i crypto-browserify
+  563  browserify encrypt.js -o encrypted.js
+  564  npm i nanoid
+  565  npm i crypto-js
+  566  npm start
+  567  npm i crypto-browserify
+  568  npm i browserify-aes
+  569  npm i
+  570  npm install assert --save\nnpm install buffer --save\n
+  571  npm install 'stream-browserify'
+  572  npm install stream-browserify --save\n
+  573  npm i stream
+  574  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/Junk/MSBD-frontend'
+  575  npm start
+  576  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Backend'
+  577  npm test
+  578  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/Junk/14sepFE/MSBD-frontend'
+  579  npm start
+  580  npm start
+  581  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/Junk/MSBD-frontend'
+  582  npm start
+  583  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Backend'
+  584  npm test
+  585  clear
+  586  npm test
+  587  npm start
+  588  npm i
+  589  npm test
+  590  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Backend'
+  591  npm test
+  592  npm test
+  593  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/Junk/MSBD-frontend'
+  594  npm start
+  595  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/msbdfev1.0.1'
+  596  git add .
+  597  git commit -m "msr"
+  598  git pull
+  599  git pull --allow-unrelated-histories
+  600  git pull https://github.com/TAL-deves/msbdfev1.0.1.git  --allow-unrelated-histories
+  601  git branch
+  602  git origin
+  603  git pull origin master
+  604  git pull origin main
+  605  git pull origin main --ff-only
+  606  git config pull.ff true\n
+  607  git config pull.ff only\n
+  608  git pull origin main --ff-only
+  609  git config pull.rebase false
+  610  git pull origin main 
+  611  git pull
+  612  git pull --rebase
+  613  npm start
+  614  npm start
+  615  npm start
+  616  npm start
+  617  npm start
+  618  npm start
+  619  git add .
+  620  git commit -m "msr 21 sep"
+  621  git pull
+  622  git pull https://github.com/TAL-deves/msbdfev1.0.1.git
+  623  git pull --rebase
+  624  git pull https://github.com/TAL-deves/msbdfev1.0.1.git --rebase 
+  625  npm start
+  626  git push
+  627  git push origin HEAD:https://github.com/TAL-deves/msbdfev1.0.1.git
+  628  git push https://github.com/TAL-deves/msbdfev1.0.1.git
+  629  git push https://github.com/TAL-deves/msbdfev1.0.1.git HEAD:main
+  630  git pull https://github.com/TAL-deves/msbdfev1.0.1.git 
+  631  git add .
+  632  git commit -m "masr"
+  633  git pull https://github.com/TAL-deves/msbdfev1.0.1.git 
+  634  cd ..
+  635  git clone https://github.com/TAL-deves/msbdfev1.0.1.git
+  636  cd ../
+  637  ls -al
+  638  git clone https://github.com/TAL-deves/msbdfev1.0.1.git
+  639  cd msbdfev1.0.1
+  640  npm i
+  641  npm start
+  642  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Frontend/msbdfev1.0.1'
+  643  npm start
+  644  npm i crypto-js
+  645  npm start
+  646  cd '/Users/techanalyticaltd/Desktop/Coding/MindSchoolBD/Development/Backend'
+  647  npm test
+  648  git branch
+  649  git checkout -b encryptedcode
+  650  git add .
+  651  git commit -m "latest changes"
+  652  git push
+  653  git remote add encryptedclone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  654  git push
+  655  git remote add encryptedclone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  656  git pushencryptedclone
+  657  git push encryptedclone
+  658  npm test
+  659  npm test
+  660  npm test
+  661  npm test
+  662  npm test
+  663  clear
+  664  npm test
+  665  npm i crypto-js
+  666  npm test
+  667  git add .
+  668  git commit -m "latest update 22"
+  669  git push
+  670  git branch
+  671  git push encryptedcode
+  672  git pushencryptedcode
+  673  git push encryptedcode
+  674  git push
+  675  git remote add encryptedcode https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  676  git push encryptedcode
+  677  cd Backend
+  678  npm test
+  679  npm i react-bootstrap-sweetalert
+  680  npm install sweetalert
+  681  cd ..
+  682  cd ..
+  683  cd Backend
+  684  npm test
+  685  npm test
+  686  npm test
+  687  npm test
+  688  git add .
+  689  git commit -m "25 sep latest"
+  690  git push
+  691  git push encryptedcode
+  692  cd ..
+  693  cd Frontend
+  694  cd msbdfev1.0.1
+  695  npm start
+  696  npm start
+  697  npm start
+  698  npm start
+  699  npm start
+  700  npm start
+  701  cd Backend
+  702  npm test
+  703  cd Frontend
+  704  cd msbdfev1.0.1
+  705  npm start
+  706  npm start
+  707  git add .
+  708  git commit -m "msr updates"
+  709  git push
+  710  git push origin HEAD:main
+  711  git push https://github.com/TAL-deves/msbd-frontend-redux.git:main
+  712  git push https://github.com/TAL-deves/msbd-frontend-redux.git
+  713  git push https://github.com/TAL-deves/msbd-frontend-redux.git HEAD:main
+  714  cd Backend
+  715  git add .
+  716  git commit -m "latest changes"
+  717  git push
+  718  git remote add encryptedcode https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  719  git push encryptedcode 
+  720  npm test
+  721  cd ..
+  722  cd Frontend
+  723  cd msbdfev1.0.1
+  724  git pull https://github.com/TAL-deves/msbd-frontend-redux.git
+  725  npm start
+  726  cd ..
+  727  cd ..
+  728  cd Backend
+  729  npm test
+  730  npm i bcrypt
+  731  cd Backend
+  732  npm test
+  733  npm test
+  734  npm test
+  735  git add .
+  736  git commit -m "msr latest"
+  737  git push https://github.com/TAL-deves/Platform-backend-v1.0.1.git HEAD:encryptedcode
+  738  npm test
+  739  cd ..
+  740  cd Frontend
+  741  cd msbdfev1.0.1
+  742  npm start
+  743  gi add .
+  744  git add .
+  745  git commit -m "msr latest"
+  746  git push
+  747  git push origin HEAD:main
+  748  git push https://github.com/TAL-deves/msbd-frontend-redux.git:main
+  749  git push https://github.com/TAL-deves/msbd-frontend-redux.git HEAD:main
+  750  npm start
+  751  npm start
+  752  npm start
+  753  npm start
+  754  npm start
+  755  cd Frontend
+  756  cd msbdfev1.0.1
+  757  npm start
+  758  npm start
+  759  npm start
+  760  git add .
+  761  git status
+  762  git pull https://github.com/TAL-deves/msbd-frontend-redux.git
+  763  npm start
+  764  cd ..
+  765  cd ..
+  766  cd Backend
+  767  npm start
+  768  npm test
+  769  npm i sslcommerz
+  770  npm test
+  771  npm test
+  772  npm i
+  773  npm test
+  774  npm i sslcommerz-lts
+  775  npm test
+  776  npm test
+  777  giit add .
+  778  git add .
+  779  git commit -m "msr latest"
+  780  git push https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  781  npm test
+  782  cd Backend
+  783  npm test
+  784  npm add .
+  785  git add .
+  786  git commit -m "msr latest"
+  787  git status
+  788  cd Backend
+  789  cd ..
+  790  cd Frontend
+  791  cd msbdfev1.0.1
+  792  npm start
+  793  npm test
+  794  npm start
+  795  npm start
+  796  npm start
+  797  npm start
+  798  npm start
+  799  npm start
+  800  npm start
+  801  pm test
+  802  npm test
+  803  npm start
+  804  npm test
+  805  cd Frontend
+  806  cd msbdfev1.0.1
+  807  npm start
+  808  cd Backend
+  809  npm test
+  810  npm test
+  811  cd Backend
+  812  npm start
+  813  npm test
+  814  git add .
+  815  git commit -m "lastest changes"
+  816  git push
+  817  git push encryptedcode
+  818  cd Frontend
+  819  cd msbdfev1.0.1
+  820  npm start
+  821  npm test
+  822  cd ../
+  823  cd Frontend
+  824  cd msbdfev1.0.1
+  825  npm start
+  826  node version
+  827  node 
+  828  npm init -y
+  829  npm i express
+  830  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/nodejsTest.git\ngit push -u origin main\n
+  831  git add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/nodejsTest.git\ngit push -u origin main
+  832  npm start
+  833  npm start
+  834  git add .
+  835  git commit -m "latest"
+  836  git push
+  837  $ touch Dockerfile
+  838  touch Dockerfile
+  839  git add .
+  840  git commit -m "latest"
+  841  git push
+  842  git add .
+  843  git commit -m "latest"
+  844  git push
+  845  git add .
+  846  git commit -m "latest"
+  847  git push
+  848  npm start
+  849  npm start
+  850  npm start
+  851  npm start
+  852  npm start
+  853  npm start
+  854  npm start
+  855  npm start
+  856  npm start
+  857  npm start
+  858  npm start
+  859  npm start
+  860  npm start
+  861  npm start
+  862  npm start
+  863  npm start
+  864  npm start
+  865  npm start
+  866  npm start
+  867  npm start
+  868  npm start
+  869  npm start
+  870  npm start
+  871  npm start
+  872  npm start
+  873  npm start
+  874  npm start
+  875  npm start
+  876  npm start
+  877  npm start
+  878  npm start
+  879  npm start
+  880  npm start
+  881  npm start
+  882  git add .
+  883  git commit -m "latest"
+  884  git push
+  885  npm start
+  886  git add .
+  887  git commit -m "latest"
+  888  git push
+  889  git add .
+  890  git commit -m "latest"
+  891  git push
+  892  cd Backend
+  893  git add .
+  894  git commit -m "latest 11 oct"
+  895  git push encryptedcode
+  896  cd Backend
+  897  npm test
+  898  npm test
+  899  gcloud
+  900  history
+  901  history | grep docker\n
+  902  git clone https://github.com/0x5eba/Video-Meeting.git
+  903  npm i
+  904  ls -al
+  905  git add .
+  906  git commit -m "latest"
+  907  git checkout -b updated
+  908  git push
+  909  git push --set-upstream origin updated
+  910  dig
+  911  dig mindschoolbd.com
+  912  dig www.mindschoolbd.com
+  913  git add .
+  914  docker-compose up
+  915  docker
+  916  docker-compose 
+  917  docker-compose up
+  918  git .
+  919  git add .
+  920  git commit -m "latest"
+  921  git push
+  922  git add .
+  923  git commit -m "latest"
+  924  git add .
+  925  git commit -m "latest"
+  926  git push
+  927  git add .
+  928  git commit -m "latest"
+  929  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBDdocker.git\ngit push -u origin main\n
+  930  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBDdocker.git\ngit push -u origin main\n
+  931  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBDdocker.git\ngit push -u origin main\n
+  932  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBDdocker.git\ngit push -u origin main\n
+  933  git add .
+  934  git commit -m "latest"
+  935  git pull
+  936  git push 
+  937  git push --set-upstream origin main
+  938  git branch --set-upstream-to=origin/<branch> main
+  939  git branch --set-upstream-to=origin/main main
+  940  git push --set-upstream origin main
+  941  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBDdocker.git\ngit push -u origin main\n
+  942  git add .
+  943  git commit -m "latest"
+  944  git push
+  945  git add .
+  946  git commit -m "latest"
+  947  git push
+  948  history
+  949  cd Backend
+  950  npm test
+  951  git clone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  952  git status
+  953  git branch
+  954  cd Platform-backend-v1.0.1
+  955  git branch
+  956  git branch\n
+  957  git checkout encryptedcode
+  958  cd ../
+  959  git clone https://github.com/TAL-deves/msbd-frontend-redux.git
+  960  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_GPC.git\ngit push -u origin main\n
+  961  git add .
+  962  git commit -m "latest up"
+  963  git add .
+  964  git commit -m "latest up"
+  965  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_GPC.git\ngit push -u origin main\n
+  966  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_GPC.git\ngit push -u origin main\n
+  967  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_GPC.git\ngit push -u origin main\n
+  968  cd Backend
+  969  git add .
+  970  git commit -m "latest updates for gcp"
+  971  git push encryptedcode
+  972  git add .
+  973  git commit -m "latest updates for gcp"
+  974  git push
+  975  git push encryptedcode
+  976  git add .
+  977  git commit -m "commit latest"
+  978  git push
+  979  git add .
+  980  git commit -m "commit latest"
+  981  git push
+  982  git add .
+  983  git commit -m "commit latest"
+  984  git push
+  985  git add .
+  986  git commit -m "commit latest"
+  987  git  push
+  988  git add .
+  989  git commit -m "commit latest"
+  990  git  push
+  991  git add .
+  992  git commit -m "commit latest"
+  993  git  push
+  994  git add .
+  995  git commit -m "commit latest"
+  996  git  push
+  997  git add .
+  998  git commit -m "commit latest"
+  999  git  push
+ 1000  sudo shutdown -h now
+ 1001  docker scan
+ 1002  docker images
+ 1003  docker scan msbd_docker_gcp-frontend
+ 1004  cd Backend
+ 1005  npm test
+ 1006  npm test
+ 1007  cd Frontend
+ 1008  npm start
+ 1009  npm i
+ 1010  npm start
+ 1011  npm i serve
+ 1012  npm run build
+ 1013  serve build
+ 1014  serve folder-name/\n
+ 1015  npm install --global serve\n
+ 1016  npm install serve
+ 1017  npm install serve -f
+ 1018  serve build
+ 1019  npm install --global serve -f\n
+ 1020  npm install --location=global serve -f\n
+ 1021  cd ../
+ 1022  docker-compose up --build
+ 1023  docker-compose up --build
+ 1024  docker-compose up --build
+ 1025  docker-compose up --build
+ 1026  docker-compose up --build
+ 1027  docker-compose up --build
+ 1028  docker-compose up --build
+ 1029  docker-compose up --build
+ 1030  docker-compose up
+ 1031  docker-compose up
+ 1032  docker-compose up
+ 1033  docker-compose up
+ 1034  docker-compose up --build
+ 1035  git add .
+ 1036  git commit -m "api point added"
+ 1037  git push
+ 1038  git add .
+ 1039  git commit -m "latest"
+ 1040  git push
+ 1041  git add .
+ 1042  git commit -m "latest"
+ 1043  git push
+ 1044  git add .
+ 1045  git commit -m "latest"
+ 1046  git push
+ 1047  git add .
+ 1048  git commit -m "latest"
+ 1049  git push
+ 1050  git add .
+ 1051  git commit -m "latest"
+ 1052  git push
+ 1053  git add .
+ 1054  git commit -m "latest"
+ 1055  git push
+ 1056  docker-compose up --build
+ 1057  docker-compose up --build
+ 1058  cd /root/.npm/_logs/2022-10-16T11_37_09_444Z-debug-0.log
+ 1059  docker-compose up --build
+ 1060  docker-compose up --build
+ 1061  docker-compose up --build
+ 1062  docker-compose up --build
+ 1063  docker-compose up --build
+ 1064  docker-compose up --build
+ 1065  docker-compose up --build
+ 1066  docker-compose up --build
+ 1067  docker-compose up --build
+ 1068  docker-compose up --build
+ 1069  docker-compose up --build
+ 1070  git add .
+ 1071  git commit -m "latest"
+ 1072  git push
+ 1073  git add .
+ 1074  git commit -m "latest"
+ 1075  git push
+ 1076  git clean
+ 1077  git clear
+ 1078  git add .
+ 1079  git commit -m "latest"
+ 1080  git push
+ 1081  git init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_gcp_v1.git\ngit push -u origin main\n
+ 1082  git init\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/TAL-deves/MSBD_Docker_gcp_v1.git\ngit push -u origin main\n
+ 1083  git init\ngit add .\ngit commit -m "modified 17oct"\ngit branch -M main\ngit remote add origin https://github.com/Manassaharoy/documentation.git\ngit push -u origin main
+ 1084  git add .
+ 1085  git commit -m "modified 17 oct"
+ 1086  git remote add origin https://github.com/Manassaharoy/documentation.git
+ 1087  git push
+ 1088  git push --set-upstream origin main
+ 1089  git config credential.helper
+ 1090  git config 
+ 1091  git conifg --worktree
+ 1092  git config --worktree
+ 1093  git init\ngit add .\ngit commit -m "modified 17 oct"\ngit branch -M main\ngit remote add origin git@github.com:Manassaharoy/documentation.git\ngit push -u origin main\n
+ 1094  git config --list --show-origin\n
+ 1095  docker images
+ 1096  docker ps -a
+ 1097  cd ~/.bash_sessions\ncat *.historynew *.history\n
+ 1098  ~/.bash_history
+ 1099  sudo ~/.bash_history
+ 1100  history n\n
+ 1101  history npm install --location=global serve -f\n\n

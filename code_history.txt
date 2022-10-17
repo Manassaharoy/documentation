@@ -1,0 +1,856 @@
+
+# Tracing out error and access logs (sudo required for permission)
+	- tail -f error.log 
+	- tail -f access.log 
+
+# Show line numbers - sudo nano -l /etc/nginx/sites-enabled/default
+
+
+
+
+
+
+
+
+———__________——
+1  sudo apt-get upgrade
+    2  sudo apt-getautoremove
+    3  sudo apt-get autoremove
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  nginx
+    7  clear
+    8  service status
+    9  ls -al
+   10  ls -l
+   11  gcloud projects list
+   12  cd 366919501339
+   13  ls -l
+   14  ls -al
+   15  gcloud projects create compute-engine-docker-nodejs
+   16  sudo gcloud projects create compute-engine-docker-nodejs
+   17  gcloud auth login
+   18  gcloud projects list
+   19  gcloud projects create compute-engine-docker-nodejs
+   20  gcloud config list
+   21  gcloud projects list
+   22  gcloud projects list
+   23  gcloud config list
+   24  gcloud config get-value project
+   25  gcloud builds submit --tag gcr.io/xenon-sentry-364311/docker-image
+   26  gcloud builds submit --tag gcr.io/xenon-sentry-364311/docker-image ./Users/techanalyticaltd/Desktop/Coding/nodejsTest/
+   27  gcloud auth configure-docker
+   28  docker build -t gcr.io/xenon-sentry-364311/nodejs-local-build .
+   29  clear
+   30  sudo apt-get update
+   31  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   32  sudo mkdir -p /etc/apt/keyrings
+   33  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   34  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   35    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   36  sudo apt-get update
+   37  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   38  sudo service docker start
+   39  sudo docker run hello-world
+   40  git clone https://github.com/TAL-deves/nodejsTest.git
+   41  ls -l
+   42  cd nodejsTest/
+   43  gcloud
+   44  gcloud builds submit --config cloudbuild.yaml .
+   45  gcloud projects list
+   46  gcloud builds submit --config cloudbuild.yaml .
+   47  cd ..
+   48  rm nodejsTest/
+   49  ls -l
+   50  sudo rm -rf nodejsTest/
+   51  git clone https://github.com/TAL-deves/nodejsTest.git
+   52  gcloud builds submit --config cloudbuild.yaml .
+   53  cd nodejsTest/
+   54  gcloud builds submit --config cloudbuild.yaml .
+   55  clear
+   56  gcloud auth configure-docker
+   57  clear
+   58  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   59  ls -l
+   60  ls -al
+   61  docker run gcr.io/xenon-sentry-364311/nodejstest
+   62  gcloud auth configure-docker
+   63  grep docker /etc/group
+   64  sudo usermod -a -G docker mindschool_gcp
+   65  grep docker /etc/group
+   66  gcloud auth configure-docker
+   67  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   68  cd ../
+   69  sudo rm -rf nodejsTest/
+   70  git clone https://github.com/TAL-deves/nodejsTest.git
+   71  cd nodejsTest/
+   72  gcloud builds submit --config cloudbuild.yaml .
+   73  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   74  docker image ls
+   75  sudo docker image ls
+   76  sudo docker rm image 795ed63ac578 -f
+   77  sudo docker image rm 795ed63ac578 
+   78  sudo docker image rm 795ed63ac578 -f
+   79  cd ../
+   80  sudo rm -rf nodejsTest/
+   81  git clone https://github.com/TAL-deves/nodejsTest.git
+   82  gcloud builds submit --config cloudbuild.yaml .
+   83  cd nodejsTest/
+   84  gcloud builds submit --config cloudbuild.yaml .
+   85  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   86  tulnp 
+   87  nmap -p
+   88  ps -aux
+   89  htop
+   90  sudo lsof -i -P -n | grep LISTEN
+   91  sudo netstat -tulpn | grep LISTEN
+   92  ss -tulw
+   93  cd nodejsTest/
+   94  node index.js
+   95  ls -l
+   96  sudo docker run -p 80:3030 gcr.io/xenon-sentry-364311/nodejstest
+   97  sudo docker run -p 443:3030 gcr.io/xenon-sentry-364311/nodejstest
+   98  ls -l
+   99  sudo rm nodejsTest/
+  100  sudo rm -rf nodejsTest/
+  101  ls -l
+  102  docker image ls
+  103  sudo docker image rm 8771 -f
+  104  docker images
+  105  git clone https://github.com/TAL-deves/nodejsTest.git
+  106  cd nodejsTest/
+  107  ls -l
+  108  gcloud builds submit --config cloudbuild.yaml .
+  109  gcloud auth configure-docker
+  110  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+  111  docker images
+  112  docker ps -a
+  113  docker rm-f a63279b4ff89
+  114  docker rm -f a63279b4ff89
+  115  docker images
+  116  sudo rm -rf nodejsTest/
+  117  git clone https://github.com/TAL-deves/nodejsTest.git
+  118  cd nodejsTest/
+  119  gcloud builds submit --config cloudbuild.yaml .
+  120  gcloud auth configure-docker
+  121  sudo docker run gcr.io/xenon-sentry-364311/nodejstest@sha256:9d3e29550b62d480129a4025bcd58908065e3588f35df6e34efd0d2067378920
+  122  sudo apt-get update
+  123  sudo apt-get install nginx
+  124  sudo apt-get install ufw
+  125  sudo ufw allow 'Nginx HTTP'
+  126  systemctl status nginx
+  127  which nano
+  128  sudo apt-get install nano
+  129  which nano
+  130  sudo apt-get install npm
+  131  sudo npm cache clean -f
+  132  sudo npm install -g n
+  133  sudo n stable
+  134  sudo chmod -R 776 /var/www
+  135  sudo chown -R www-data:www-data /var/www
+  136  sudo usermod -a -G www-data mindschool_gcp
+  137  sudo reboot
+  138  ls -l
+  139  ls -al
+  140  sudo rm -rf nodejsTest/
+  141  ls -l
+  142  cd /var/www
+  143  mkdir index
+  144  cd index/
+  145  nano index.js
+  146  clear
+  147  sudo npm install -g pm2
+  148  ls
+  149  pm2 start index.js index
+  150  pm2 status
+  151  pm2 start index.js index
+  152  pm2 status
+  153  pm2 start index.js index
+  154  pm2 status
+  155  pm2 list
+  156  pm2 restart index
+  157  pm2 list
+  158  pm2 kill
+  159  pm2 logs
+  160  ls
+  161  pm2 start index.js 
+  162  pm list
+  163  pm2 list
+  164  pm2 logs
+  165  sudo nano index.js 
+  166  pm2 kill
+  167  pm2 start index.js 
+  168  pm2 list
+  169  pm2 logs
+  170  sudo nano index.js 
+  171  pm2 kill
+  172  pm2 start index.js --name index
+  173  pm2 list
+  174  pm2 status
+  175  pm2 startup systemd
+  176  sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u mindschool_gcp --hp /home/mindschool_gcp
+  177  sudo reboot
+  178  sudo nano /etc/nginx/sites-available/default
+  179  sudo systemctl restart nginx
+  180  cd /var/www/
+  181  ls
+  182  cd index/
+  183  docker images
+  184  docker ps -a
+  185  docker rm -f 10451f5a73ef
+  186  docker ps -a
+  187  docker rm -f 3bd78db94e64
+  188  docker rm -f f778909a4eb7
+  189  docker rm -f b22ff0b5f782
+  190  docker rm -f 04f9f29d3754
+  191  docker ps -a
+  192  docker images
+  193  docker image delete 1b9c6ba62eb4
+  194  docker image rm 1b9c6ba62eb4
+  195  docker image rm 877160ed1210
+  196  docker image 
+  197  docker images
+  198  sudo nano /etc/nginx/sites-available/default
+  199  ls 
+  200  sudo nano index.js 
+  201  cd ../
+  202  git clone https://github.com/TAL-deves/nodejsTest.git
+  203  ls
+  204  sudo rm -rf nodejsTest/
+  205  git clone https://github.com/TAL-deves/nodejsTest.git
+  206  cd nodejsTest/
+  207  ls
+  208  pm2 list
+  209  pm2 kill
+  210  sudo nano /etc/nginx/sites-available/default
+  211  pm2 list
+  212  ls 
+  213  sudo nano /etc/nginx/sites-available/default
+  214  pm2 start index.js --name index
+  215  pm2 status
+  216  sudo nano /etc/nginx/sites-available/default
+  217  sudo systemctl restart nginx
+  218  journalctl -xeu nginx.service
+  219  cd ../
+  220  ls -al
+  221  cd index/
+  222  ls -al
+  223  cd ../
+  224  cd nodejsTest/
+  225  ls -l
+  226  sudo chmod -R 776 /var/www/nodejsTest/
+  227  ls -al
+  228  cd /etc/systemd/
+  229  ls -al
+  230  cd system
+  231  ls -al
+  232  locate nginx
+  233  cd ..
+  234  cd user
+  235  ls -al
+  236  cd ../../
+  237  cd nginx/
+  238  ls -l
+  239  sudo apt-get install mlocate
+  240  locate
+  241  locate nginx.service
+  242  cd /etc/systemd/system/multi-user.target.wants/nginx.service
+  243  sudo nano /etc/systemd/system/multi-user.target.wants/nginx.service
+  244  sudo /usr/sbin/nginx -t /etc/nginx/sites-available/default 
+  245  cd /etc/nginx/sites-available/default
+  246  sudo nano /etc/nginx/sites-available/default
+  247  cd /etc/nginx/
+  248  ls -l
+  249  sudo nano nginx.conf 
+  250  sudo /usr/sbin/nginx -t /etc/nginx/nginx.conf
+  251  /usr/sbin/nginx
+  252  sudo /usr/sbin/nginx
+  253  sudo nano nginx.conf 
+  254  sudo nano -c /etc/nginx/sites-enabled/default
+  255  sudo nano -l /etc/nginx/sites-enabled/default
+  256  sudo systemctl restart nginx
+  257  cd /var/log/nginx/
+  258  ls -l
+  259  sudo vi access.log 
+  260  sudo nano access.log 
+  261  tail -f access.log 
+  262  tail -f error.log 
+  263  cd /var/www
+  264  ls -l
+  265  git clone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  266  git clone git@github.com:TAL-deves/Platform-backend-v1.0.1.git
+  267  git clone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  268  ls -l
+  269  cd
+  270  sudo nano /etc/nginx/sites-available/default 
+  271  sudo systemctl restart nginx
+  272  systemctl status nginx.service
+  273  sudo nano /etc/nginx/sites-available/default 
+  274  pm2 kill
+  275  systemctl status nginx.service
+  276  sudo systemctl restart nginx
+  277  cd /var/www/Platform-backend-v1.0.1/
+  278  ls -l
+  279  pm2 start server.js --name "server"
+  280  pm2 status
+  281  pm2 list
+  282  pm2 save
+  283  pm2 list
+  284  pm2 restart server
+  285  sudo systemctl restart nginx
+  286  tail -f error.log 
+  287  cd /etc/nginx/
+  288  ls -l
+  289  tail -f /var/log/nginx/error
+  290  cd /etc
+  291  ls -l
+  292  cd nginx/
+  293  ls -l
+  294  cd ../
+  295  cd /var/log/nginx/
+  296  tail -f error.log 
+  297  pm2 logs
+  298  cd /var/www/Platform-backend-v1.0.1/
+  299  sudo nano .env
+  300  git status
+  301  git pull --all
+  302  git branches --all
+  303  git branch --all
+  304  git checkout encryptedcode
+  305  git add .
+  306  git commit -m "latest"
+  307  git config --global user.email "taldeves@gmail.com"
+  308  git commit -m "latest"
+  309  git config --global user.email "taldeves@gmail.com" git config --global user.name "taldeves"
+  310  git config --global user.name "taldeves"
+  311  git commit -m "latest"
+  312  git checkout encryptedcode
+  313  git status
+  314  sudo nano .env
+  315  pm2 kill
+  316  pm2 start server.js --name "server"
+  317  pm2 log
+  318  npm i
+  319  pm2 kill
+  320  pm2 start server.js --name "server"
+  321  pm2 log
+  322  pm2 flush              
+  323  pm2 log
+  324  pm2 status
+  325  sudo systemctl restart nginx
+  326  tail -f /var/log/nginx/access.log 
+  327  cd ../
+  328  hisory
+  329  history
+
+
+
+# Docker part 
+
+
+438  docker ps
+  439  docker images
+  440  docker ps
+  441  docker commit ff953ecb92cb mysnapshot
+  442  docker run -t -i mysnapshot /bin/bash
+  443  cd MSBDdocker/
+  444  git pull
+  445  history
+
+#####13oct 
+ 1  sudo apt-get upgrade
+    2  sudo apt-getautoremove
+    3  sudo apt-get autoremove
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  nginx
+    7  clear
+    8  service status
+    9  ls -al
+   10  ls -l
+   11  gcloud projects list
+   12  cd 366919501339
+   13  ls -l
+   14  ls -al
+   15  gcloud projects create compute-engine-docker-nodejs
+   16  sudo gcloud projects create compute-engine-docker-nodejs
+   17  gcloud auth login
+   18  gcloud projects list
+   19  gcloud projects create compute-engine-docker-nodejs
+   20  gcloud config list
+   21  gcloud projects list
+   22  gcloud projects list
+   23  gcloud config list
+   24  gcloud config get-value project
+   25  gcloud builds submit --tag gcr.io/xenon-sentry-364311/docker-image
+   26  gcloud builds submit --tag gcr.io/xenon-sentry-364311/docker-image ./Users/techanalyticaltd/Desktop/Coding/nodejsTest/
+   27  gcloud auth configure-docker
+   28  docker build -t gcr.io/xenon-sentry-364311/nodejs-local-build .
+   29  clear
+   30  sudo apt-get update
+   31  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   32  sudo mkdir -p /etc/apt/keyrings
+   33  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   34  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   35    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   36  sudo apt-get update
+   37  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   38  sudo service docker start
+   39  sudo docker run hello-world
+   40  git clone https://github.com/TAL-deves/nodejsTest.git
+   41  ls -l
+   42  cd nodejsTest/
+   43  gcloud
+   44  gcloud builds submit --config cloudbuild.yaml .
+   45  gcloud projects list
+   46  gcloud builds submit --config cloudbuild.yaml .
+   47  cd ..
+   48  rm nodejsTest/
+   49  ls -l
+   50  sudo rm -rf nodejsTest/
+   51  git clone https://github.com/TAL-deves/nodejsTest.git
+   52  gcloud builds submit --config cloudbuild.yaml .
+   53  cd nodejsTest/
+   54  gcloud builds submit --config cloudbuild.yaml .
+   55  clear
+   56  gcloud auth configure-docker
+   57  clear
+   58  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   59  ls -l
+   60  ls -al
+   61  docker run gcr.io/xenon-sentry-364311/nodejstest
+   62  gcloud auth configure-docker
+   63  grep docker /etc/group
+   64  sudo usermod -a -G docker mindschool_gcp
+   65  grep docker /etc/group
+   66  gcloud auth configure-docker
+   67  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   68  cd ../
+   69  sudo rm -rf nodejsTest/
+   70  git clone https://github.com/TAL-deves/nodejsTest.git
+   71  cd nodejsTest/
+   72  gcloud builds submit --config cloudbuild.yaml .
+   73  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   74  docker image ls
+   75  sudo docker image ls
+   76  sudo docker rm image 795ed63ac578 -f
+   77  sudo docker image rm 795ed63ac578 
+   78  sudo docker image rm 795ed63ac578 -f
+   79  cd ../
+   80  sudo rm -rf nodejsTest/
+   81  git clone https://github.com/TAL-deves/nodejsTest.git
+   82  gcloud builds submit --config cloudbuild.yaml .
+   83  cd nodejsTest/
+   84  gcloud builds submit --config cloudbuild.yaml .
+   85  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+   86  tulnp 
+   87  nmap -p
+   88  ps -aux
+   89  htop
+   90  sudo lsof -i -P -n | grep LISTEN
+   91  sudo netstat -tulpn | grep LISTEN
+   92  ss -tulw
+   93  cd nodejsTest/
+   94  node index.js
+   95  ls -l
+   96  sudo docker run -p 80:3030 gcr.io/xenon-sentry-364311/nodejstest
+   97  sudo docker run -p 443:3030 gcr.io/xenon-sentry-364311/nodejstest
+   98  ls -l
+   99  sudo rm nodejsTest/
+  100  sudo rm -rf nodejsTest/
+  101  ls -l
+  102  docker image ls
+  103  sudo docker image rm 8771 -f
+  104  docker images
+  105  git clone https://github.com/TAL-deves/nodejsTest.git
+  106  cd nodejsTest/
+  107  ls -l
+  108  gcloud builds submit --config cloudbuild.yaml .
+  109  gcloud auth configure-docker
+  110  sudo docker run gcr.io/xenon-sentry-364311/nodejstest
+  111  docker images
+  112  docker ps -a
+  113  docker rm-f a63279b4ff89
+  114  docker rm -f a63279b4ff89
+  115  docker images
+  116  sudo rm -rf nodejsTest/
+  117  git clone https://github.com/TAL-deves/nodejsTest.git
+  118  cd nodejsTest/
+  119  gcloud builds submit --config cloudbuild.yaml .
+  120  gcloud auth configure-docker
+  121  sudo docker run gcr.io/xenon-sentry-364311/nodejstest@sha256:9d3e29550b62d480129a4025bcd58908065e3588f35df6e34efd0d2067378920
+  122  sudo apt-get update
+  123  sudo apt-get install nginx
+  124  sudo apt-get install ufw
+  125  sudo ufw allow 'Nginx HTTP'
+  126  systemctl status nginx
+  127  which nano
+  128  sudo apt-get install nano
+  129  which nano
+  130  sudo apt-get install npm
+  131  sudo npm cache clean -f
+  132  sudo npm install -g n
+  133  sudo n stable
+  134  sudo chmod -R 776 /var/www
+  135  sudo chown -R www-data:www-data /var/www
+  136  sudo usermod -a -G www-data mindschool_gcp
+  137  sudo reboot
+  138  ls -l
+  139  ls -al
+  140  sudo rm -rf nodejsTest/
+  141  ls -l
+  142  cd /var/www
+  143  mkdir index
+  144  cd index/
+  145  nano index.js
+  146  clear
+  147  sudo npm install -g pm2
+  148  ls
+  149  pm2 start index.js index
+  150  pm2 status
+  151  pm2 start index.js index
+  152  pm2 status
+  153  pm2 start index.js index
+  154  pm2 status
+  155  pm2 list
+  156  pm2 restart index
+  157  pm2 list
+  158  pm2 kill
+  159  pm2 logs
+  160  ls
+  161  pm2 start index.js 
+  162  pm list
+  163  pm2 list
+  164  pm2 logs
+  165  sudo nano index.js 
+  166  pm2 kill
+  167  pm2 start index.js 
+  168  pm2 list
+  169  pm2 logs
+  170  sudo nano index.js 
+  171  pm2 kill
+  172  pm2 start index.js --name index
+  173  pm2 list
+  174  pm2 status
+  175  pm2 startup systemd
+  176  sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u mindschool_gcp --hp /home/mindschool_gcp
+  177  sudo reboot
+  178  sudo nano /etc/nginx/sites-available/default
+  179  sudo systemctl restart nginx
+  180  cd /var/www/
+  181  ls
+  182  cd index/
+  183  docker images
+  184  docker ps -a
+  185  docker rm -f 10451f5a73ef
+  186  docker ps -a
+  187  docker rm -f 3bd78db94e64
+  188  docker rm -f f778909a4eb7
+  189  docker rm -f b22ff0b5f782
+  190  docker rm -f 04f9f29d3754
+  191  docker ps -a
+  192  docker images
+  193  docker image delete 1b9c6ba62eb4
+  194  docker image rm 1b9c6ba62eb4
+  195  docker image rm 877160ed1210
+  196  docker image 
+  197  docker images
+  198  sudo nano /etc/nginx/sites-available/default
+  199  ls 
+  200  sudo nano index.js 
+  201  cd ../
+  202  git clone https://github.com/TAL-deves/nodejsTest.git
+  203  ls
+  204  sudo rm -rf nodejsTest/
+  205  git clone https://github.com/TAL-deves/nodejsTest.git
+  206  cd nodejsTest/
+  207  ls
+  208  pm2 list
+  209  pm2 kill
+  210  sudo nano /etc/nginx/sites-available/default
+  211  pm2 list
+  212  ls 
+  213  sudo nano /etc/nginx/sites-available/default
+  214  pm2 start index.js --name index
+  215  pm2 status
+  216  sudo nano /etc/nginx/sites-available/default
+  217  sudo systemctl restart nginx
+  218  journalctl -xeu nginx.service
+  219  cd ../
+  220  ls -al
+  221  cd index/
+  222  ls -al
+  223  cd ../
+  224  cd nodejsTest/
+  225  ls -l
+  226  sudo chmod -R 776 /var/www/nodejsTest/
+  227  ls -al
+  228  cd /etc/systemd/
+  229  ls -al
+  230  cd system
+  231  ls -al
+  232  locate nginx
+  233  cd ..
+  234  cd user
+  235  ls -al
+  236  cd ../../
+  237  cd nginx/
+  238  ls -l
+  239  sudo apt-get install mlocate
+  240  locate
+  241  locate nginx.service
+  242  cd /etc/systemd/system/multi-user.target.wants/nginx.service
+  243  sudo nano /etc/systemd/system/multi-user.target.wants/nginx.service
+  244  sudo /usr/sbin/nginx -t /etc/nginx/sites-available/default 
+  245  cd /etc/nginx/sites-available/default
+  246  sudo nano /etc/nginx/sites-available/default
+  247  cd /etc/nginx/
+  248  ls -l
+  249  sudo nano nginx.conf 
+  250  sudo /usr/sbin/nginx -t /etc/nginx/nginx.conf
+  251  /usr/sbin/nginx
+  252  sudo /usr/sbin/nginx
+  253  sudo nano nginx.conf 
+  254  sudo nano -c /etc/nginx/sites-enabled/default
+  255  sudo nano -l /etc/nginx/sites-enabled/default
+  256  sudo systemctl restart nginx
+  257  cd /var/log/nginx/
+  258  ls -l
+  259  sudo vi access.log 
+  260  sudo nano access.log 
+  261  tail -f access.log 
+  262  tail -f error.log 
+  263  sudo systemctl restart nginx
+  264  cd /var/www
+  265  ls -l
+  266  git clone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  267  git clone git@github.com:TAL-deves/Platform-backend-v1.0.1.git
+  268  git clone https://github.com/TAL-deves/Platform-backend-v1.0.1.git
+  269  ls -l
+  270  cd
+  271  sudo nano /etc/nginx/sites-available/default 
+  272  sudo systemctl restart nginx
+  273  systemctl status nginx.service
+  274  sudo nano /etc/nginx/sites-available/default 
+  275  pm2 kill
+  276  systemctl status nginx.service
+  277  sudo systemctl restart nginx
+  278  cd /var/www/Platform-backend-v1.0.1/
+  279  ls -l
+  280  pm2 start server.js --name "server"
+  281  pm2 status
+  282  pm2 list
+  283  pm2 save
+  284  pm2 list
+  285  pm2 restart server
+  286  sudo systemctl restart nginx
+  287  tail -f error.log 
+  288  cd /etc/nginx/
+  289  ls -l
+  290  tail -f /var/log/nginx/error
+  291  cd /etc
+  292  ls -l
+  293  cd nginx/
+  294  ls -l
+  295  cd ../
+  296  cd /var/log/nginx/
+  297  tail -f error.log 
+  298  pm2 logs
+  299  cd /var/www/Platform-backend-v1.0.1/
+  300  sudo nano .env
+  301  git status
+  302  git pull --all
+  303  git branches --all
+  304  git branch --all
+  305  git checkout encryptedcode
+  306  git add .
+  307  git commit -m "latest"
+  308  git config --global user.email "taldeves@gmail.com"
+  309  git commit -m "latest"
+  310  git config --global user.email "taldeves@gmail.com" git config --global user.name "taldeves"
+  311  git config --global user.name "taldeves"
+  312  git commit -m "latest"
+  313  git checkout encryptedcode
+  314  git status
+  315  sudo nano .env
+  316  pm2 kill
+  317  pm2 start server.js --name "server"
+  318  pm2 log
+  319  npm i
+  320  pm2 kill
+  321  pm2 start server.js --name "server"
+  322  pm2 log
+  323  pm2 flush              
+  324  pm2 log
+  325  pm2 status
+  326  sudo systemctl restart nginx
+  327  tail -f /var/log/nginx/access.log 
+  328  cd ../
+  329  hisory
+  330  history
+  331  cd nodejsTest/
+  332  pm2 kill
+  333  pm2 start index.js  --name "index"
+  334  pm2 save
+  335  pm2 list
+  336  sudo nano /etc/nginx/sites-available/default 
+  337  sudo systemctl restart nginx
+  338  tail -f /var/log/nginx/error.log 
+  339  pm2 log
+  340  pm2 status
+  341  cd 
+  342  ls -l
+  343  cd /var/www
+  344  ls -l
+  345  cd nodejsTest/
+  346  ls -l
+  347  nano index.js 
+  348  sudo nano /etc/nginx/sites-available/default 
+  349  sudo systemctl restart nginx
+  350  nano smsService.js 
+  351  pm2 kill
+  352  pm2 start index.js --name "index"
+  353  sudo systemctl restart nginx
+  354  pm2 restart index
+  355  sudo systemctl restart nginx
+  356  nano smsService.js 
+  357  pm2 restart index
+  358  sudo systemctl restart nginx
+  359  nano smsService.js 
+  360  pm2 restart index
+  361  sudo systemctl restart nginx
+  362  nano smsService.js 
+  363  pm2 restart index
+  364  pm2 kill
+  365  cd /var/www/nodejsTest/
+  366  pm2 start index.js --name "index"
+  367  sudo nano /etc/nginx/sites-available/default 
+  368  ls -l
+  369  ls -al
+  370  cd /ect/ng
+  371  cd /etc/nginx/
+  372  ls -l
+  373  touch server.key
+  374  sudo touch server.key
+  375  openssl×509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+  376  sudo nano server.crt
+  377  ls -l
+  378  sudo systemctl restart nginx
+  379  sudo systemctl status nginx
+  380  pm2 status
+  381  pm2 kill
+  382  docker-compose up
+  383  cd MSBDdocker/
+  384  docker-compose up
+  385  cd /etc/systemd/system/docker-compose-app.service
+  386  /etc/systemd/system/
+  387  cd /etc/systemd/system/
+  388  touch docker-compose-app.service
+  389  sudo touch docker-compose-app.service
+  390  ls -l
+  391  sudo nano docker-compose-app.service 
+  392  ls -l
+  393  sudo systemctl stop nginx
+  394  sudo systemctl status nginx
+  395  git clone https://github.com/TAL-deves/dockerup.git
+  396  ls -l
+  397  cd dockerup/
+  398  ls -l
+  399  docker-compose up
+  400  docker-compose --version
+  401  docker
+  402  docker-compose
+  403  sudo apt-get install docker-compose
+  404  docker-compose --version
+  405  docker-compose up
+  406  ls -l
+  407  git add .
+  408  git commit -m "latest"
+  409  git pull
+  410  docker-compose up
+  411  cd Backend/
+  412  ls -l
+  413  cd ../
+  414  ls -l
+  415  sudo rm -rf dockerup/
+  416  ls -l
+  417  git clone https://github.com/TAL-deves/MSBDdocker.git
+  418  docker-compose up
+  419  ls -l
+  420  cd MSBDdocker/
+  421  docker-compose up
+  422  git add .
+  423  git pull
+  424  docker-compose up
+  425  cd /etc/nginx/conf.d/
+  426  ls -l
+  427  cd ../
+  428  ls -l
+  429  cd conf.d/
+  430  ls -l
+  431  docker-compose up
+  432  cd
+  433  cd MSBDdocker/
+  434  docker-compose up
+  435  docker images
+  436  docker image inspect image_id
+  437  docker image inspect 51086ed63d8c
+  438  cd /var/lib/docker/overlay2/c53d3467b3cccecbac8d91789d73f0c8d7dedfbf1cc893608fbdf353100eac36/work
+  439  sudo /var/lib/docker/overlay2/c53d3467b3cccecbac8d91789d73f0c8d7dedfbf1cc893608fbdf353100eac36/work
+  440  sudo cd /var/lib/docker/overlay2/c53d3467b3cccecbac8d91789d73f0c8d7dedfbf1cc893608fbdf353100eac36/work
+  441  sudo cd /var/lib/docker/
+  442  cd /var/lib/docker/
+  443  sudo cd /var/lib/
+  444  cd /var/lib/
+  445  ls -l
+  446  ls -al
+  447  cd 
+  448  docker ps
+  449  docker images
+  450  docker ps
+  451  docker commit ff953ecb92cb mysnapshot
+  452  docker run -t -i mysnapshot /bin/bash
+  453  cd MSBDdocker/
+  454  git pull
+  455  history
+  456  docker-compose up
+  457  docker-compose up --force-recreate --build -d
+  458  docker image prune -f
+  459  docker-compose up
+  460  systemctl enable docker-compose-app
+  461  service docker-compose-app start
+  462  docker-compose up
+  463  docker-compose down
+  464  cd MSBDdocker/
+  465  docker-compose down
+  466  cd 
+  467  ls -l
+  468  cd /var/www/
+  469  ls -l
+  470  cd nodejsTest/
+  471  ls -l
+  472  pm2 status
+  473  pm2 start index.js --name "index"
+  474  pm2 status
+  475  sudo systemsctl start nginx
+  476  sudo systemctl start nginx
+  477  ls -l
+  478  pm2 status
+  479  cd /var/www/Platform-backend-v1.0.1/
+  480  ls -l
+  481  cd ../
+  482  ls -l
+  483  cd /etc/nginx/
+  484  ls -l
+  485  sudo nano /etc/nginx/sites-available/default
+  486  sudo cerbot
+  487  snap version
+  488  sudo systemctl status nginx
+  489  sudo apt-get remove certbot
+  490  sudo snap install --classic certbot
+  491  sudo certbot --version
+  492  sudo certbot --nginx --test-cert
+  493  sudo certbot --nginx
+  494  history
+  495  sudo nano /etc/nginx/sites-available/default
+  496  history

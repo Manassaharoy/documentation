@@ -1461,3 +1461,107 @@
  1099  sudo ~/.bash_history
  1100  history n\n
  1101  history npm install --location=global serve -f\n\n
+
+
+ GCP history 
+
+  723  cd MSBD_Docker_gcp_v1/
+  724  git pull
+  725  docker-compose up
+  726  docker-compose up --build
+  727  docker-compose down
+  728  docker cointainer
+  729  docker container
+  730  docker container ls
+  731  git pull
+  732  cd MSBD_Docker_gcp_v1/
+  733  docker-compose up 
+  734  docker-compose down
+  735  docker-compose up 
+  736  sudo netstat -pna | grep 3000
+  737  docker ps -aq
+  738  docker ps -a
+  739  docker rm -fv $(docker ps -aq)
+  740  sudo lsof -i -P -n 
+  741  docker-compose up 
+  742  docker images
+  743  docker rm $(docker ps -a -f status=exited -q)
+  744  sudo docker rm $(docker ps -a -f status=exited -q)
+  745  docker image prune -f
+  746  docker-compose up 
+  747  docker network ls
+  748  docker network rm dockerup_default
+  749  docker network rm msbd_docker_gcp_v1_default
+  750  docker-compose down
+  751  docker network rm msbd_docker_gcp_v1_default
+  752  docker network ls
+  753  docker network rm msbd_docker_gpc_default
+  754  docker network rm none
+  755  docker-compose up -d
+  756  docker container ls 
+  757  docker container prune
+  758  docker container ls 
+  759  docker container stop d92f467b64be
+  760  docker container prune
+  761  docker container ls
+  762  docker images
+  763  docker image prune -f
+  764  docker images
+  765  docker rm $(docker ps -a -f status=exited -q)
+  766  docker rmi $(docker images -a -q)
+  767  docker images
+  768  docker network ls
+  769  ps -aux
+  770  ps -aux | grep nginx
+  771  systemctl nginx stop
+  772  systemctl stop nginx
+  773  sudo systemctl stop nginx
+  774  ps -aux | grep nginx
+  775  docker-compose up 
+  776  git pull
+  777  docker-compose up --build
+  778  git pull 
+  779  docker-compose up --build
+  780  git pull
+  781  docker-compose up --build
+  782  docker-compose ps
+  783  ls -l
+  784  sudo rm MSBDdocker/
+  785  sudo rm MSBDdocker
+  786  sudo rm -rf MSBDdocker
+  787  ls -l
+  788  cd MSBD_Docker_gcp_v1
+  789  docker compose logs
+  790  tail -f docker compose logs
+  791  docker compose logs
+  792  git pull
+  793  docker-compose down
+  794  docker-compose up --build
+  795  git pull
+  796  docker-compose up --build
+  797  sudo docker exec nginx-base nginx -t
+  798  sudo docker exec nginx-base nginx -s reload
+  799  sudo docker exec nginx nginx -t
+  800  sudo docker exec nginx nginx -s reload
+  801  docker-compose up -d
+  802  sudo docker exec nginx nginx -s reload
+  803  docker-compose down
+  804  docker images
+  805  docker image prune -f
+  806  docker images
+  807  docker image rm msbd_docker_gcp_v1_frontend
+  808  docker image rm msbd_docker_gcp_v1_nodeserver
+  809  docker image rm nginx
+  810  docker ps -a
+  811  cd ../
+  812  sudo rm -rf /MSBD_Docker_gcp_v1
+  813  git clone https://github.com/TAL-deves/MSBD_Docker_gcp_v1.git
+  814  ls -l
+  815  sudo rm -rf MSBD_Docker_gcp_v1
+  816  ls -l
+  817  git clone https://github.com/TAL-deves/MSBD_Docker_gcp_v1.git
+  818  cd MSBD_Docker_gcp_v1/
+  819  docker-compose up 
+  820  docker-compose up --build
+  821  docker-compose up -d
+  822  history 100

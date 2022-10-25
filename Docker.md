@@ -33,6 +33,10 @@ Build and run the container in background
 ```
 docker-compose up -d
 ```
+Build and run the container in background
+```
+docker-compose up --build --scale nodeserver=2 -d
+```
 Stop the container
 ```
 docker-compose stop
@@ -56,6 +60,9 @@ Delete all unused images
 ```
 docker image prune -f
 ``` 
+```
+docker rmi $(docker images -a -q)
+```
 
 </br>
 
@@ -67,4 +74,14 @@ or
 ```
 docker-compose ps
 ```
+
+Try this command to get only error.log:
+```
+docker logs -f nginx 1>/dev/null
+```
+And this one for access.log:
+```
+docker logs -f nginx 2>/dev/null
+```
+
 

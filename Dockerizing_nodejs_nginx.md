@@ -132,3 +132,23 @@ services:
 ```
 
 
+In case of container scaling the docker-compose.yml file will be:
+
+```
+version: "3.8"
+services:
+    nodeserver:
+        build:
+            context: ./Backend
+    frontend:
+        build:
+            context: ./Frontend
+        container_name: nginx
+        hostname: nginx
+        ports:
+            - "80:80"
+            - "443:443"
+
+```
+
+

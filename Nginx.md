@@ -108,3 +108,8 @@ server {
     return 404; # managed by Certbot
 }
 ```
+
+error.log
+```
+tail -f /var/log/nginx/error.log
+```

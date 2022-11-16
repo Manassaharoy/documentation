@@ -85,3 +85,29 @@ docker logs -f nginx 2>/dev/null
 ```
 
 
+```
+
+
+Update July 1st 2019
+docker-compose logs <name-of-service>
+for all services
+
+docker-compose logs
+Use the following options from the documentation:
+
+Usage: logs [options] [SERVICE...]
+
+Options:
+
+--no-color Produce monochrome output.
+
+-f, --follow Follow log output.
+
+-t, --timestamps Show timestamps.
+
+--tail="all" Number of lines to show from the end of the logs for each container.
+
+
+
+
+```

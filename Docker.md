@@ -109,5 +109,18 @@ Options:
 
 
 
+13 DEC 2022 #Issue arised - NGINX port 80 bind
+resolved by stoping GCP nginx. 
+
+location- cd /etc/nginx
+
+cmd: 
+
+  639  sudo systemctl start nginx
+  640  sudo systemctl status nginx
+  641  sudo systemctl stop nginx
+  642  sudo systemctl status nginx
+  644  sudo docker-compose up --build --scale nodeserver=5 -d
+
 
 ```

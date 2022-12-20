@@ -176,4 +176,10 @@ to remove a volume:
 sudo docker volume rm userProfilepictures
 ```
 
+#Issue arised: Files created inside docker container needs to be accessable from host machine
+
+solution: move the files inside container to host machine
+```
+sudo docker cp <CONTAINER ID>:<PATH OF THE FILE> <HOST FULL PATH WHERE TO STORE>
+```
 

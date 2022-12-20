@@ -124,3 +124,16 @@ cmd:
 
 
 ```
+
+
+
+
+20 DEC 2022 #Issue arised: Docker volume related issue
+To go inside a docker container following commands:
+
+```
+sudo docker ps
+sudo docker exec -it <Container ID> /bin/sh
+
+
+```

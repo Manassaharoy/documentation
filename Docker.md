@@ -137,3 +137,43 @@ sudo docker exec -it <Container ID> /bin/sh
 
 
 ```
+
+To create a volume in the host machine:
+
+```
+sudo docker volume create --name=userProfilepictures
+```
+
+then link this volume in the docker-compose.yml file:
+
+```
+version: "3.8"
+services:
+    nodeserver:
+        build:
+            context: ./backend
+        restart: on-failure
+        volumes:
+            - userProfilepictures:/backend/userProfilepictures
+    frontend:
+        build:
+            context: ./frontend
+        container_name: nginx
+        hostname: nginx
+        ports:
+            - "80:80"
+            - "443:443"
+volumes:
+    userProfilepictures:
+        external: true
+```
+
+Now data will be saved inside "userProfilepictures" volume and can be accessable to all the containers. 
+
+to remove a volume:
+
+```
+sudo docker volume rm userProfilepictures
+```
+
+
